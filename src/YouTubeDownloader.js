@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API_BASE_URL = "http://angelic-perception-production.up.railway.app";  // Change this to your Railway backend URL
+const API_BASE_URL = "https://angelic-perception-production.up.railway.app";  // Change this to your Railway backend URL
 
 const YouTubeDownloader = () => {
   const [url, setUrl] = useState("");
